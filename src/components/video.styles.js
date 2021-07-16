@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
 width:100%;
-height:740px;
+height:730px;
 background-color:#32363e;
 `;
 export const Box = styled.div`
@@ -10,7 +10,7 @@ margin-left:auto;
 margin-right: auto;
 margin-top: 0px;
 width:96.5%;
-height:530px;
+height:auto;
 display: flex;
 `;
 export const Header = styled.div`
