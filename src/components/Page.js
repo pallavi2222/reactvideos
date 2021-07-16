@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
-import {Container,Box,Header,InnerBox,Imgs,Maincontent,Text,Box1,InnerBox1,Imagecontent} from './video.styles'
+import {Container,Box,Header,InnerBox,Imgs,Maincontent,Text,Box1,InnerBox1,Imagecontent,InnerBoxs} from './video.styles'
 import { styled } from '@material-ui/core';
 
 export default function Page() {
@@ -25,6 +25,7 @@ export default function Page() {
               </Link>
               <Text >Hundreds of world cities could face a 50cm rise in sea levels by 2050. Now, over 30 areas in China have signed up to become 'sponge' cities. Here's how it works.</Text>
             </InnerBox>
+            
         </Box>
         <Box1>
             <InnerBox1>

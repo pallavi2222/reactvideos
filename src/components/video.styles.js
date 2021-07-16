@@ -4,6 +4,7 @@ export const Container = styled.div`
 width:100%;
 height:740px;
 background-color:#32363e;
+
 `;
 export const Box = styled.div`
 margin-left:auto;
@@ -27,11 +28,27 @@ text-decoration:none;
 :hover{
     color:#3299d4;
 }
+
+
+`;
+export const InnerBoxs = styled.div`
+height: 530px;
+width:100%;
+@media only screen and (max-width: 720px) {
+display: inherit;
+justify-content:center;
+justify-items: center;
+align-items: center;
+
+
+
+
+}
+
 `;
 export const InnerBox = styled.div`
 height: 530px;
 width:50%;
-
 `;
 export const Imgs = styled.img`
 height: 530px;
@@ -84,10 +101,32 @@ margin-left: auto;
     -webkit-flex-wrap: nowrap;
 
     justify-content: space-between;
+    @media only screen and (max-width: 720px) {
+   
+        width: 1350px;
+    height:1600px;
+     display: inherit;
+     justify-content:center;
+     justify-items: center;
+     align-items: center;
+    
+    
+     
+    
+    }
 `;
 export const InnerBox1 = styled.div`
 height:280px;
 width:22.5%;
+@media only screen and (max-width: 720px) {
+   margin-top:50px;
+   padding:0px 70px;
+   justify-content:center;
+     justify-items: center;
+     align-items: center;
+   
+   
+}
 
 `;
 export const Imagecontent = styled.div`
@@ -100,6 +139,11 @@ line-height: 1.25;
 color: black;
 :hover{
     text-decoration: underline; 
+}
+@media only screen and (max-width: 720px) {
+   padding-top:4px;
+   
+   
 }
 `;
 
