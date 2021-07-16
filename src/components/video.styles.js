@@ -1,0 +1,107 @@
+import styled from 'styled-components'
+
+export const Container = styled.div`
+width:100%;
+height:740px;
+background-color:#32363e;
+`;
+export const Box = styled.div`
+margin-left:auto;
+margin-right: auto;
+margin-top: 0px;
+width:96.5%;
+height:530px;
+display: flex;
+`;
+export const Header = styled.div`
+width:94%;
+height:30px;
+color:#ffffff;
+padding-top:11px ;
+text-align: left;
+padding-left:35px;
+padding-bottom: 21px;
+font-size: 22px;
+font-weight: 650;
+text-decoration:none;
+:hover{
+    color:#3299d4;
+}
+`;
+export const InnerBox = styled.div`
+height: 530px;
+width:50%;
+
+`;
+export const Imgs = styled.img`
+height: 530px;
+width:94%;
+:hover{
+    
+    
+}
+
+`;
+export const Maincontent = styled.h1`
+color: white;
+padding-left:45px;
+padding-right:45px;
+padding-top:160px;
+line-height: 1.2;
+font-size: 30px;
+text-align:left;
+font-weight:650;
+font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, sans-serif;
+:hover{
+    text-decoration: underline;
+
+}
+`;
+export const Text = styled.p`
+color: white;
+padding-left:45px;
+padding-right:15px;
+line-height: 1.5;
+text-align:left;
+font-size:14px;
+letter-spacing:0.5px;
+font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, sans-serif;
+`;
+export const Symbol1 = styled.p`
+font-size:10px;
+`;
+export const Box1= styled.div`
+margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    width: 94%;
+    height: 500px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -webkit-flex-wrap: nowrap;
+
+    justify-content: space-between;
+`;
+export const InnerBox1 = styled.div`
+height:280px;
+width:22.5%;
+
+`;
+export const Imagecontent = styled.div`
+padding-top: 10px;
+color: inherit;
+font-size: 17px;
+font-weight:bold;
+text-align:left;
+line-height: 1.25;
+color: black;
+:hover{
+    text-decoration: underline;
+}
+`;
+
+
+
