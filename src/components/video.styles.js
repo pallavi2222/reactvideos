@@ -34,7 +34,7 @@ width:50%;
 
 `;
 export const Imgs = styled.img`
-height: 530px;
+height:auto;
 width:94%;
 :hover{
     
