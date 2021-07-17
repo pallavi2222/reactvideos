@@ -1,15 +1,20 @@
 import styled from 'styled-components'
 export const Body1 = styled.body`
+margin-left: auto;
+margin-right: auto;
+padding-left:0px;
+padding-right: 0px;
 
 `;
 export const Container = styled.div`
 width:100%;
 height:740px;
 background-color:#32363e;
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 600px) {
+    width:auto;
     
     height:584px;
-    
+   
     
 }
 
@@ -21,7 +26,7 @@ margin-top: 0px;
 width:96.5%;
 height:530px;
 display: flex;
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 600px) {
     width:340px;
 height:700px;
 flex-direction: column;
@@ -50,7 +55,7 @@ text-decoration:none;
 export const InnerBoxs = styled.div`
 height: 530px;
 width:100%;
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 600px) {
 display: inherit;
 justify-content:center;
 justify-items: center;
@@ -65,7 +70,7 @@ align-items: center;
 export const InnerBox = styled.div`
 height: 530px;
 width:50%;
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 600px) {
 
 height:366px;
 
@@ -75,12 +80,12 @@ height:366px;
 export const Imgs = styled.img`
 height: 530px;
 width:94%;
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 600px) {
 width:330px;
 height:364px;
 
 margin-right: auto;
-margin-left: auto;
+margin-left: auto   ;
 
 }
 
@@ -100,7 +105,7 @@ font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, sans-seri
     text-decoration: underline;
 
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 600px) {
 width:330px;
 padding-top:30px;
 font-size: 23px;
@@ -121,7 +126,7 @@ text-align:left;
 font-size:14px;
 letter-spacing:0.5px;
 font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, sans-serif;
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 600px) {
 width:330px;
 font-size:12px;
 margin-left:auto ;
@@ -130,7 +135,7 @@ padding-left:5px;
 padding-right:5px;
 background-color:#32363e ;
 height:73px;
-
+margin-bottom: 0px;
 }
 `;
 export const Symbol1 = styled.p`
@@ -150,9 +155,9 @@ margin-left: auto;
     -webkit-flex-wrap: nowrap;
 
     justify-content: space-between;
-    @media only screen and (max-width: 720px) {
+    @media only screen and (max-width: 600px) {
    
-        width: 290px;
+        width:330px;
     height:1600px;
     margin-right: auto;
     margin-left: auto;
@@ -171,9 +176,10 @@ margin-left: auto;
 export const InnerBox1 = styled.div`
 height:280px;
 width:22.5%;
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 600px) {
    margin-top:50px;
-   
+  width:auto; 
+  height: auto;
    justify-content:center;
      justify-items: center;
      align-items: center;
@@ -194,7 +200,7 @@ color: black;
 :hover{
     text-decoration: underline; 
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 600px) {
    padding-top:4px;
    
    
@@ -203,7 +209,7 @@ color: black;
 export const Images = styled.img`
 height: 90%;
 width:100%;
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 600px) {
    margin-left: auto;
    margin-right: auto;
    
