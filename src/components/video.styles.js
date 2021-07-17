@@ -50,7 +50,7 @@ text-decoration:none;
     color:#3299d4;
 }
 @media only screen and (max-width: 600px) {
-padding-left:10px;
+padding-left:15px;
 font-size: 21px;
     
 }
