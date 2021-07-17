@@ -7,7 +7,7 @@ width:100%;
 height:740px;
 background-color:#32363e;
 @media only screen and (max-width: 720px) {
-    width:450px;
+    
     height:584px;
     
     
@@ -22,7 +22,7 @@ width:96.5%;
 height:530px;
 display: flex;
 @media only screen and (max-width: 720px) {
-    width:380px;
+    width:340px;
 height:700px;
 flex-direction: column;
 
@@ -66,7 +66,7 @@ export const InnerBox = styled.div`
 height: 530px;
 width:50%;
 @media only screen and (max-width: 720px) {
-width:364px;
+
 height:366px;
 
 
@@ -76,7 +76,7 @@ export const Imgs = styled.img`
 height: 530px;
 width:94%;
 @media only screen and (max-width: 720px) {
-width:364px;
+width:330px;
 height:364px;
 
 
@@ -100,7 +100,7 @@ font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, sans-seri
 
 }
 @media only screen and (max-width: 720px) {
-width:364px;
+width:330px;
 padding-top:30px;
 font-size: 23px;
 padding-left:0px;
@@ -121,7 +121,7 @@ font-size:14px;
 letter-spacing:0.5px;
 font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @media only screen and (max-width: 720px) {
-width:360px;
+width:330px;
 font-size:12px;
 
 padding-left:10px;
