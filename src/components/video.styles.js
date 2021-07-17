@@ -28,7 +28,7 @@ height:530px;
 display: flex;
 @media only screen and (max-width: 600px) {
     width:340px;
-height:700px;
+height:629px;
 flex-direction: column;
 
     
@@ -50,7 +50,7 @@ text-decoration:none;
     color:#3299d4;
 }
 @media only screen and (max-width: 600px) {
-padding-left:49px;
+padding-left:10px;
 font-size: 21px;
     
 }
@@ -77,7 +77,6 @@ width:50%;
 @media only screen and (max-width: 600px) {
 
 height:366px;
-
 
 }
 `;
