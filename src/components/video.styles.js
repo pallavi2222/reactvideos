@@ -13,7 +13,7 @@ background-color:#32363e;
 @media only screen and (max-width: 600px) {
     width:auto;
     
-    height:584px;
+    height:640px;
    
     
 }
@@ -103,14 +103,15 @@ font-weight:650;
 font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, sans-serif;
 :hover{
     text-decoration: underline;
+   
 
 }
 @media only screen and (max-width: 600px) {
 width:330px;
 padding-top:30px;
-font-size: 23px;
-padding-left:0px;
-padding-right: 0px;;
+font-size: 24px;
+padding-left:20px;;
+padding-right:20px;;
 
 
 
@@ -128,13 +129,14 @@ letter-spacing:0.5px;
 font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @media only screen and (max-width: 600px) {
 width:330px;
-font-size:12px;
+font-size:14px;
 margin-left:auto ;
 margin-right: auto;
-padding-left:5px;
-padding-right:5px;
+padding-left:20px;
+padding-right:20px;
 background-color:#32363e ;
-height:73px;
+padding-bottom:20px;
+height:auto;
 margin-bottom: 0px;
 }
 `;
@@ -177,7 +179,7 @@ export const InnerBox1 = styled.div`
 height:280px;
 width:22.5%;
 @media only screen and (max-width: 600px) {
-   margin-top:50px;
+   margin-top:30px;
   width:auto; 
   height: auto;
    justify-content:center;
