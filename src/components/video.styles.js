@@ -1,9 +1,17 @@
 import styled from 'styled-components'
+export const Body1 = styled.body`
 
+`;
 export const Container = styled.div`
 width:100%;
 height:740px;
 background-color:#32363e;
+@media only screen and (max-width: 720px) {
+    width:450px;
+    height:584px;
+    
+    
+}
 
 `;
 export const Box = styled.div`
@@ -13,6 +21,14 @@ margin-top: 0px;
 width:96.5%;
 height:530px;
 display: flex;
+@media only screen and (max-width: 720px) {
+    width:380px;
+height:700px;
+flex-direction: column;
+
+    
+}
+
 `;
 export const Header = styled.div`
 width:94%;
@@ -49,14 +65,24 @@ align-items: center;
 export const InnerBox = styled.div`
 height: 530px;
 width:50%;
+@media only screen and (max-width: 720px) {
+width:364px;
+height:366px;
+
+
+}
 `;
 export const Imgs = styled.img`
 height: 530px;
 width:94%;
-:hover{
-    
-    
+@media only screen and (max-width: 720px) {
+width:364px;
+height:364px;
+
+
+
 }
+
 
 `;
 export const Maincontent = styled.h1`
@@ -73,6 +99,17 @@ font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, sans-seri
     text-decoration: underline;
 
 }
+@media only screen and (max-width: 720px) {
+width:364px;
+padding-top:30px;
+font-size: 23px;
+padding-left:0px;
+padding-right: 0px;;
+
+
+
+}
+
 `;
 export const Text = styled.p`
 color: white;
@@ -83,6 +120,16 @@ text-align:left;
 font-size:14px;
 letter-spacing:0.5px;
 font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@media only screen and (max-width: 720px) {
+width:360px;
+font-size:12px;
+
+padding-left:10px;
+padding-right:10px;;
+background-color:#32363e ;
+height:73px;
+
+}
 `;
 export const Symbol1 = styled.p`
 font-size:10px;
@@ -103,12 +150,16 @@ margin-left: auto;
     justify-content: space-between;
     @media only screen and (max-width: 720px) {
    
-        width: 1350px;
+        width: 290px;
     height:1600px;
-     display: inherit;
+    margin-right: auto;
+    margin-left: auto;
+     display:list-item;
      justify-content:center;
      justify-items: center;
      align-items: center;
+     padding-left: auto;
+     padding-right: auto;
     
     
      
@@ -120,11 +171,12 @@ height:280px;
 width:22.5%;
 @media only screen and (max-width: 720px) {
    margin-top:50px;
-   padding:0px 70px;
+   
    justify-content:center;
      justify-items: center;
      align-items: center;
-   
+     
+     
    
 }
 
@@ -146,6 +198,15 @@ color: black;
    
 }
 `;
+export const Images = styled.img`
+height: 90%;
+width:100%;
+@media only screen and (max-width: 720px) {
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+   
+}
 
-
-
+`;

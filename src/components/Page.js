@@ -1,12 +1,15 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
-import {Container,Box,Header,InnerBox,Imgs,Maincontent,Text,Box1,InnerBox1,Imagecontent,InnerBoxs} from './video.styles'
+import {Container,Box,Header,InnerBox,Imgs,Maincontent,Text,Box1,InnerBox1,Imagecontent,InnerBoxs,Body1,Images} from './video.styles'
 import { styled } from '@material-ui/core';
 
 export default function Page() {
+  
     return (
         <div>
+      
+          <Body1>
          <Container>
             <Link to="/Videopage" style={{textDecoration: 'none'}}>
                 <Header>Popular Video<ArrowForwardIosIcon style={{fontSize:'15px',color:'#3299d4'}}/></Header>
@@ -30,7 +33,7 @@ export default function Page() {
         <Box1>
             <InnerBox1>
             <Link to="/Videopage" style={{textDecoration: 'none'}}>
-            <img src={"https://cdn.jwplayer.com/thumbs/fk8mCk6r-1920.jpg"} style={{height:'90%',width:'100%'}} />
+            <Images src={"https://cdn.jwplayer.com/thumbs/fk8mCk6r-1920.jpg"}/>
             <Imagecontent>Do You ‘Doomscroll’? If So, Here’s How To Stop
              
 
@@ -76,7 +79,7 @@ export default function Page() {
             </InnerBox1>
         </Box1>
       </Container>
-     
+      </Body1>
             
         </div>
     )

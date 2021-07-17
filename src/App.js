@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+
 import Page from './components/Page'
 import Videopage from './components/Videopage'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
