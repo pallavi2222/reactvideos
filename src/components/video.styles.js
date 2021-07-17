@@ -84,7 +84,7 @@ export const Imgs = styled.img`
 height: 530px;
 width:94%;
 @media only screen and (max-width: 600px) {
-width:330px;
+width:340px;
 height:364px;
 
 margin-right: auto;
