@@ -79,7 +79,8 @@ width:94%;
 width:330px;
 height:364px;
 
-
+margin-right: auto;
+margin-left: auto;
 
 }
 
@@ -123,9 +124,10 @@ font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, sans-seri
 @media only screen and (max-width: 720px) {
 width:330px;
 font-size:12px;
-
-padding-left:10px;
-padding-right:10px;;
+margin-left:auto ;
+margin-right: auto;
+padding-left:5px;
+padding-right:5px;
 background-color:#32363e ;
 height:73px;
 
