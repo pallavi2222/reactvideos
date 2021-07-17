@@ -49,7 +49,11 @@ text-decoration:none;
 :hover{
     color:#3299d4;
 }
-
+@media only screen and (max-width: 600px) {
+padding-left:49px;
+font-size: 21px;
+    
+}
 
 `;
 export const InnerBoxs = styled.div`
@@ -128,7 +132,7 @@ font-size:14px;
 letter-spacing:0.5px;
 font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @media only screen and (max-width: 600px) {
-width:330px;
+
 font-size:14px;
 margin-left:auto ;
 margin-right: auto;
@@ -137,6 +141,7 @@ padding-right:20px;
 background-color:#32363e ;
 padding-bottom:20px;
 height:auto;
+width:300px;
 margin-bottom: 0px;
 }
 `;
