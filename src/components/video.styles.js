@@ -5,7 +5,7 @@ margin-right: auto;
 padding-left:0px;
 padding-right: 0px;
 @media only screen and (max-width: 720px) {
-    width:424px;
+    width:380px;
     height: auto;
    
     
