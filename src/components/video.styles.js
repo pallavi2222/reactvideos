@@ -7,8 +7,7 @@ padding-right: 0px;
 @media only screen and (max-width: 600px) {
     width:auto;
     overflow-x:hidden;
-    overflow-y: auto;
-    
+    height:100%;
    
     
 }
