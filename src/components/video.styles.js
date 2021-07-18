@@ -5,7 +5,7 @@ margin-right: auto;
 padding-left:0px;
 padding-right: 0px;
 @media only screen and (max-width: 600px) {
-    width:375px;
+    width:365;
     
    
     
@@ -18,7 +18,8 @@ height:740px;
 background-color:#32363e;
 @media only screen and (max-width: 600px) {
     width:auto;
-    
+    margin-left:0px ;
+    margin-right:0px;
     height:640px;
    
     
