@@ -3,7 +3,7 @@ import React from 'react'
 function Videopage() {
     return (
         <div>
-            hello,hai
+            hello
         </div>
     )
 }
