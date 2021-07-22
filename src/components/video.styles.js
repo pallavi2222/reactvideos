@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-export const Body1 = styled.body`
+export const Body1 = styled.div`
 margin-left: auto;
 margin-right: auto;
 padding-left:0px;
@@ -160,7 +160,7 @@ margin-left: auto;
     margin-right: auto;
     margin-top: 35px;
     width: 94%;
-    height: 500px;
+    height: 337px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;

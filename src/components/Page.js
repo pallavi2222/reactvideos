@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import Agenda from "./Agenda"
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import {Container,Box,Header,InnerBox,Imgs,Maincontent,Text,Box1,InnerBox1,Imagecontent,InnerBoxs,Body1,Images} from './video.styles'
 import { styled } from '@material-ui/core';
@@ -7,7 +8,8 @@ import { styled } from '@material-ui/core';
 export default function Page() {
   
     return (
-        <div>
+      <div style={{height:"100vh"}}>
+        <div style={{height:"1008px"}}>
       
           <Body1>
          <Container>
@@ -80,7 +82,12 @@ export default function Page() {
         </Box1>
       </Container>
       </Body1>
-            
+          
+        </div>
+       
+       <Agenda></Agenda>
+       
+       
         </div>
     )
 }
