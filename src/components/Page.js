@@ -85,7 +85,7 @@ export default function Page() {
           
         </div>
        
-       <Agenda></Agenda>
+       
        
        
         </div>
