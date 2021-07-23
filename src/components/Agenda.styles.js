@@ -17,7 +17,7 @@ export const Headline = styled.h1`
         font-weight: 660;
     letter-spacing: -0.02em;
     font-size: 2.600em;
-    padding-left:18px;
+    padding-left:10px;
     margin-bottom: 0px;
     font-size: 31px;
    
@@ -29,7 +29,7 @@ export const Desc = styled.p`
  margin-bottom: 40px;
  margin-top:16px;
  @media only screen and (max-width: 600px) {
-    padding-left:18px;
+    padding-left:10px;
     padding-right: 18px;
  font-size: 14.9px;
  margin-bottom: 40px;
@@ -130,8 +130,8 @@ margin-left: auto;
 margin-right: auto;
 @media only screen and (max-width: 600px) {
    
-   width:27%;
-   height:70px;
+   width:28%;
+   height:75px;
 
 
 }
@@ -164,7 +164,7 @@ display: -webkit-box;
     flex-grow: 1;
     @media only screen and (max-width: 600px) {
     height:auto;
-    padding-left: 25px;
+    padding-left: 20px;
 
 
 
