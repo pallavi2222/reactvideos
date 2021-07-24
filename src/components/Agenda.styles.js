@@ -223,4 +223,59 @@ export const Date = styled.span`
     font-size:13px;
     line-height: 1.4;
 `;
+export const Pageno = styled.div`
+margin:40px 0px;
+height:40px;
+width:90%;
+border:1px solid #e6dfdf;
+margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+`;
+export const Prev = styled.div`
+height:auto;
+width:11%;
+border-right:1px solid #e6dfdf;
+padding-top: 10px;
+padding-bottom:10px;
+text-align: center;
+font-size:12px;
+font-weight: bold;
+color:#d5e0e8;
+@media only screen and (max-width: 600px) {
+   width:25%;
+
+}
+`;
+export const Number = styled.div`
+height:auto;
+width:78%;
+border-right:1px solid #e6dfdf;
+padding-top: 10px;
+padding-bottom:10px;
+text-align: center;
+font-size:12px;
+font-weight: bold;
+color:#d5e0e8;
+@media only screen and (max-width: 600px) {
+   width:50%;
+
+}
+`;
+export const Next = styled.div`
+height:auto;
+width:11%;
+padding-top: 10px;
+padding-bottom:10px;
+text-align: center;
+font-size:12px;
+font-weight: bold;
+color:black;
+@media only screen and (max-width: 600px) {
+   width:25%;
+
+}
+
+`;
 

@@ -8,7 +8,7 @@ import { styled } from '@material-ui/core';
 export default function Page() {
   
     return (
-      <div style={{height:"100vh"}}>
+      <div style={{height:"auto"}}>
         <div style={{height:"1008px"}}>
       
           <Body1>
@@ -83,9 +83,9 @@ export default function Page() {
       </Container>
       </Body1>
           
-        </div>
+        </div> 
        
-       <Agenda></Agenda>
+       <Agenda ></Agenda>
        
        
         </div>

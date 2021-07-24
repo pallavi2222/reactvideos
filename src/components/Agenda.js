@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import {Headline,Box,Desc,InnerBox1,Images,Imagecaption,Total,Imagecontent,Imagetitle,Imagedescription,Middle,ImageBottomcaption,Author,Date,Display} from './Agenda.styles'
+import {Headline,Box,Desc,InnerBox1,Images,Imagecaption,Total,Imagecontent,Pageno,Prev,Number,Next,Imagetitle,Imagedescription,Middle,ImageBottomcaption,Author,Date,Display} from './Agenda.styles'
 function Agenda() {
     return (
         <div>
@@ -225,7 +225,11 @@ function Agenda() {
             </InnerBox1>
             
             </Box>
-            
+            <Pageno>
+                <Prev>Prev</Prev>
+                <Number>1/1</Number>
+                <Next>Next</Next>
+            </Pageno>
             </Total>
             
         </div>
