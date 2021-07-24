@@ -131,7 +131,7 @@ margin-right: auto;
 @media only screen and (max-width: 600px) {
    
    width:27%;
-   height:70px;
+   height:65px;
 
 
 }
