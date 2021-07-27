@@ -1,5 +1,5 @@
 
-import Page from './components/Page'
+import PopularVideos from './components/PopularVideos'
 import Videopage from './components/Videopage'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
      <Router>
       <Switch>
-          <Route path="/" exact component={Page}/>
+          <Route path="/" exact component={PopularVideos}/>
           <Route path="/Videopage" exact component={Videopage} />
       </Switch>
       </Router>
